@@ -1,99 +1,23 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>455project by mtuck</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+---
+layout: default
+---
 
-  </head>
-  <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/mtuck/455Project">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/mtuck/455Project/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/mtuck/455Project/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
+<div class="home">
 
-    <div class="wrapper">
+  <h1 class="page-heading">Posts</h1>
 
-      <section>
-        <div id="title">
-          <h1>455project</h1>
-          <p></p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/mtuck">mtuck</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h1>
-<a id="455project" class="anchor" href="#455project" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>455Project</h1>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-<ul>
-<li>
-<strong>Gram</strong> -  Good with groups, bad at keeping self accountable. Bad at taking notes.  C++, Java</li>
-<li>
-<strong>Martin</strong>-  C++, Java, Javascript, SQL, HTMl, CSS, a little php</li>
-<li>
-<strong>Sean</strong>- C++, Java</li>
-<li>
-<strong>Seth</strong>- Likes to refactor code and insure quality  C++, SQL </li>
-<li>
-<strong>Paul</strong>- C++, C</li>
-</ul>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Phone</th>
-<th>Una Email</th>
-<th>Gmail</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Gram</strong></td>
-<td>256-783-0054</td>
-<td><a href="mailto:gcook@una.edu">gcook@una.edu</a></td>
-<td><a href="mailto:ggcook93@gmail.com">ggcook93@gmail.com</a></td>
-</tr>
-<tr>
-<td><strong>Sean</strong></td>
-<td>256-460-0040</td>
-<td><a href="mailto:Svaccaro@una.edu">Svaccaro@una.edu</a></td>
-<td><a href="mailto:sean.vaccaro@gmail.com">sean.vaccaro@gmail.com</a></td>
-</tr>
-<tr>
-<td><strong>Paul</strong></td>
-<td>256-856-0196</td>
-<td><a href="mailto:djia@una.edu">djia@una.edu</a></td>
-<td><a href="mailto:curlyjdl@gmail.com">curlyjdl@gmail.com</a></td>
-</tr>
-<tr>
-<td><strong>Martin</strong></td>
-<td>256-684-2622</td>
-<td><a href="mailto:mtuck@una.edu">mtuck@una.edu</a></td>
-<td><a href="mailto:mtuck321@gmail.com">mtuck321@gmail.com</a></td>
-</tr>
-</tbody>
-</table>
-      </section>
-
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
-</html>
+</div>
