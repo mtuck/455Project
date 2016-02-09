@@ -88,5 +88,9 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
+<<<<<<< HEAD
 markdown: kramdown
 >>>>>>> parent of 5b1e6e4... changed config.yml
+=======
+markdown: redcarpet
+>>>>>>> parent of 73ba43d... changed back to kramdown markdown
