@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Meeting 1 Notes"
+date:   2016-02-08 21:29:13 +0000
+categories: jekyll update
+---
 # 455Project
 
 * __Gram__ -  Good with groups, bad at keeping self accountable. Bad at taking notes.  C++, Java
@@ -13,4 +19,5 @@
 |__Sean__  | 256-460-0040	| Svaccaro@una.edu  | sean.vaccaro@gmail.com|
 |__Paul__  | 256-856-0196 | djia@una.edu 		| curlyjdl@gmail.com 	|
 |__Martin__| 256-684-2622	| mtuck@una.edu 	| mtuck321@gmail.com 	|
+
 
