@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Swap()"
-date:   2015-04-09 6:11:32
+date:   2016-04-09 6:11:32
 categories: documentation
+---
 
 ##Swap(Object a, Object b)
 
