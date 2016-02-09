@@ -6,8 +6,9 @@
 
 
 // Our variables
-$base-font-family: "Raleway",Arial,sans-serif;
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
+$base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -20,8 +21,12 @@ $brand-color:      #2a7ae2;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+<<<<<<< HEAD
 $blue-color:	   #515865;
 $table-bg-accent:  #EEEEEE;
+=======
+
+>>>>>>> parent of 5b1e6e4... changed config.yml
 // Width of the content area
 $content-width:    800px;
 
@@ -35,7 +40,7 @@ table {
 }
 
 
-// Using media queries with like this:
+// Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
 //         padding-right: $spacing-unit / 2;

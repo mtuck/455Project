@@ -6,10 +6,27 @@
    Selections
    ========================================================================== */
 
+<<<<<<< HEAD
 ::-moz-selection {
 	background-color: lighten($base-color, 65%);
 	color: $base-color;
 	text-shadow: none;
+=======
+
+/**
+ * Basic styling
+ */
+body {
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+>>>>>>> parent of 5b1e6e4... changed config.yml
 }
 ::selection {
 	background-color: lighten($base-color, 65%);
@@ -53,6 +70,7 @@ li {
 /* headings */
 
 h1, h2, h3, h4, h5, h6 {
+<<<<<<< HEAD
 	font-family: $heading-font;
 	text-rendering: optimizeLegibility; // Fix the character spacing for headings
 }
@@ -73,6 +91,9 @@ h5 {
 }
 h6 {
 	@include font-size(18);
+=======
+    font-weight: $base-font-weight;
+>>>>>>> parent of 5b1e6e4... changed config.yml
 }
 
 /* underlined text */
@@ -163,15 +184,33 @@ figcaption {
 
 
 
+<<<<<<< HEAD
 // Tables
 // --------------------------------------------------
 table {
   width: 100%;
+=======
+/**
+ * Code formatting
+ */
+pre,
+code {
+    font-size: 15px;
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+    background-color: #eef;
+>>>>>>> parent of 5b1e6e4... changed config.yml
 }
 
 
+<<<<<<< HEAD
 // Blockquotes
 // --------------------------------------------------
+=======
+pre {
+    padding: 8px 12px;
+    overflow-x: auto;
+>>>>>>> parent of 5b1e6e4... changed config.yml
 
 blockquote {
 	font-family: $alt-font;
