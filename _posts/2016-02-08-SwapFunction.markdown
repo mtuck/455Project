@@ -1,9 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-04-09 11:23:32
-categories: jekyll update
----
+title:  "Swap()"
+date:   2015-04-09 6:11:32
+categories: documentation
 
 ##Swap(Object a, Object b)
 
