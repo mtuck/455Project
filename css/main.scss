@@ -6,6 +6,7 @@
 
 
 // Our variables
+$table-bg-accent:  #eeeeee;
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
@@ -41,6 +42,13 @@ $on-laptop:        800px;
     @media screen and (max-width: $device) {
         @content;
     }
+}
+
+
+table {
+  > tbody > tr:nth-of-type(odd) {
+    background-color: $table-bg-accent;
+  }
 }
 
 

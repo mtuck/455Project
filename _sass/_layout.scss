@@ -5,7 +5,7 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-
+    background-color: #009900;
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -20,20 +20,20 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: #000000;
     }
 }
 
 .site-nav {
     float: right;
     line-height: 56px;
-
+        
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: #000000;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
