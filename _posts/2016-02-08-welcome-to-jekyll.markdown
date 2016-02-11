@@ -4,22 +4,63 @@ title:  "Welcome to Jekyll!"
 date:   2016-02-08 21:29:12 +0000
 categories: documentation
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+### SLIDE 1
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+__Pragmatic means realistic rather than theoretical__
 
-Jekyll also offers powerful support for code snippets:
+### Slide 2
+__Pragmatic programming is a very adaptive an easy style of programming__
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+__Pragmatic programming does not enforce a strict process__
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+### Slide 3
+__It is not a formal method like waterfall__
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+__Formal methods can be used when they fit__
+* do not force a formal method 
+
+### Slide 4
+Why not use formal methods?
+* lack of flexibility
+  * programmers cannot be creative
+  * must follow the rules
+  * "Circles and arrows make poor masters"
+* Lack of communnicatioin
+  * Ex. SQA doesnt communicate with users or designers or coders they wont know how software is used
+
+
+### Slide 5
+__What is a pragmatic programmer__
+* critical thinker
+  * form their own opinions
+* Realistic
+  * understands nature of problem 
+* Early adapter fast learner
+  * They are not scared of new technology
+
+### Slide 6 Pragmatic Teams
+* Always prototype 
+ * refacter
+ * use templating
+* Good team communication
+* Communictae with client and user
+ * no suprises when deliver
+* document code while wrting it
+* Use automation
+ * tests
+  * test the tests
+ * add test when bug is found
+* Dont repeate yourself
+* Do not have tightly coupled modules
+
+
+### Last Slide
+What agile principles does it have?
+* Communictaion with user and team
+* Adaptive to chage
+ * prototype and refactor
+* Build working software
+ * but also documentation is just as important
+
+
+
