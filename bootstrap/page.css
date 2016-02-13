@@ -3,6 +3,18 @@
 .custom-collapse .collapse{
             display:block;
       }  
+	  
+	  #listgroup{
+	
+    height:100vh;
+
+}
+
+}
+
+.navbar-brand{
+
+	width: 200px;
 }
 
 
