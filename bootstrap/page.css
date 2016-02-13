@@ -1,0 +1,19 @@
+ @media screen and (min-width: 768px) {
+
+.custom-collapse .collapse{
+            display:block;
+      }  
+}
+
+
+
+ .banner{
+  height: 40px;
+  background-color: #5f6062;
+  margin-bottom:0px;
+  padding-top: 5px;
+  color: white;
+  border-top: 2px solid white;
+ }
+
+ 
