@@ -12,9 +12,20 @@
 
 }
 
-.navbar-brand{
+body{
+  font-family: 'Lato', sans-serif;
+  color: #5F6062 ;
+}
 
-	width: 200px;
+
+.navbar-brand{
+	padding: 0px;
+	width: 400px;
+}
+
+.navy{
+	background-color: #2D0C49;
+	margin-bottom: 0px;
 }
 
 
@@ -22,7 +33,7 @@
  .banner{
   height: 40px;
   background-color: #5f6062;
-  margin-bottom:0px;
+  margin-top:0px;
   padding-top: 5px;
   color: white;
   border-top: 2px solid white;
