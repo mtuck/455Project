@@ -4,7 +4,7 @@ title:  "Chapter 7 Nots"
 date:   2016-02-23 21:29:12 +0000
 categories: documentation
 ---
-#chapter 7
+# Chapter 7
 
 
 ### Modules
@@ -12,7 +12,7 @@ categories: documentation
 
 
 ### Cohestion and coupling
-* measures of software quality relating to modules or classes.
+* Measures of software quality relating to modules or classes.
 * Measures used to quantify characteristics like reusablility, reliability etc.
 
 
@@ -29,4 +29,40 @@ categories: documentation
     * Note 3,4,5 are sometimes called flowchart cohesion
   6. __informational__: Performs multiple functions each with its own entry point with independent code for each action, all performed on the same data structure
   7. __Functional__: performs a single function or action
-  
+* As the cohesion number increased, so did the cohesion level and the desirability
+* Functional cohesion enhances reusability
+* Maintenance is easier performed on a module with functional cohesion
+
+#### Coupling
+* The degree of interation between two modules
+* The type of relationship that exists between two software entities.
+1. __Content__: One software entity references the contents of another entity
+2. __Common__: Software entities reference a shared global data structure
+3. __External__: Software entities reference the same externally declared symbol
+4. __Control__: one entity passes  control elements as arguments to another entity.
+5. __Stamp__: A data structure is passed but not entirely used. 
+6. __Data__: One  entity calls another and are not coupled as described above (every parameter pass is simple or a data structure entirely used)
+
+
+#### Abstraction:
+1. Data abstraction
+2. Procedural Abstraction
+ 
+A means of achieving stepwise refinement by suppressing unnecessary details and accentuating relevant details 
+
+#### Data encapsulation
+* data strucuture along with the actions or operations to be performed on that structure.
+* An example of Abstractio
+
+#### Procedural Abstraction
+* Conceptualizing in terms of giing a name to a set of high-level actions which are specified by the body of the procedure
+
+#### Information Hiding
+* Better named "Detail Hiding"
+* Concept introduced by Pamas
+* Hiding the implementation details of a module from another using it
+
+#### Abstract Data Type ADT
+* Specification of a data type along with the operation on that type
+* Supports both data and procedural abstraction
+* 
