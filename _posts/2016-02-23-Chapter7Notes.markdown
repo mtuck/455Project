@@ -65,4 +65,9 @@ A means of achieving stepwise refinement by suppressing unnecessary details and 
 #### Abstract Data Type ADT
 * Specification of a data type along with the operation on that type
 * Supports both data and procedural abstraction
-* 
+ 
+ #### Three important concepts in OO paradigm
+ 1. Inheritance
+ 2. Polymorphism
+ 3. Dynamic Binding 
+ 
