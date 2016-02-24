@@ -29,3 +29,4 @@ categories: documentation
     * Note 3,4,5 are sometimes called flowchart cohesion
   6. __informational__: Performs multiple functions each with its own entry point with independent code for each action, all performed on the same data structure
   7. __Functional__: performs a single function or action
+  
