@@ -66,8 +66,31 @@ A means of achieving stepwise refinement by suppressing unnecessary details and 
 * Specification of a data type along with the operation on that type
 * Supports both data and procedural abstraction
  
- #### Three important concepts in OO paradigm
- 1. Inheritance
- 2. Polymorphism
- 3. Dynamic Binding 
+#### Three important concepts in OO paradigm
+1. Inheritance
+2. Polymorphism
+3. Dynamic Binding 
  
+#### Reuse
+* Taking components of one product to be used in a different product with different funcitonality 
+
+##### __Types Of reuse__
+1. __Accidental or opportunistic reuse__- developers realize that a component from a previously constructed product can be reused in the new project they are currently working on.
+2. __Deliberate or systematic reuse__- components are constructed with purpose that they will be reused
+
+##### __Advantage of Deliberate reuse
+* components constructed with reuse in mind will be:
+    * More likely to be easier and safer to reuse.
+    * will be better documented
+    * will be more throughly tested
+    * will adhere to a uniformity of style
+    * will be more easily maintained
+
+
+##### __Disadvantages of reuse__
+* can be expensive to the development company
+* can be more time consuming
+    * Design 
+    * Testing
+    * Documentation
+* May not be reused after time spent making it mor reusablee
