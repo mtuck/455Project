@@ -94,3 +94,90 @@ A means of achieving stepwise refinement by suppressing unnecessary details and 
     * Testing
     * Documentation
 * May not be reused after time spent making it mor reusablee
+
+
+##### Impediments  to reus
+* ego
+* unedrstanding of quality
+* economic
+* retrieval
+* expense
+* legality
+* for COTS components- limited extensibillity/modifiability
+* Not invented here syndrome
+
+##### Design Reuse
+
+* Reuse may occur durning design as well as implementation
+* Opportunistic reuse of designs is common when an organization develops software in only one application domain
+
+
+##### Types of design reuse
+* comppany that develops software in one specific domain may set up repository of design components 
+    * increase design quality
+    * reduce design time
+    * use tested modules
+* Application Frameworks
+* Design patterns  
+
+
+
+##### Design patters
+* Chirstopher alexander quote here " each patter describes a problem which occurs over"
+* Each design patter is a a solution to a general problem in the form of a set of in classes (missing end)
+##### elements of design patterns
+1. pattern Name
+2. problem it solves
+3. solution- elements making up the design
+4. Consequences - results and trade offs of applying
+
+#### Design pattern list
+* Look up list of design patters
+* section 8.5 
+
+* The 23 "GANG OF FOUR" DESIGN PATTERS ARE GROUPED INTO CATEGORIS
+*Creational
+    * factory
+    * builder
+    * prototype
+    * factory builder
+    * singleton
+* CREATIONAL DESIGN PATTERS SOLVE DESIGN PROBLEMS BY CREATING OBJECTS
+
+#### structural
+* structural design patters solve design problems by identifying a single way to realize relationships between entities
+
+
+##### behavior patters
+* behavioral design patters solve design problems by identifying common communication patters
+
+
+##### Adapter design patters
+* solve the implementation icompatibilies
+* provides a genral solution to teh problem of permitting communication betweeen two objects with incompatible interfaces
+* provide a way for an object to permit access to its internal implementation without ccuping clients to the structure of that internal implementation
+* That is adapter provides all the advantages of information hiding without having to actually hide the implementation details
+
+
+
+##### bridege design patters
+* 8 aim of the bridge design patter
+* sometimes called a driver
+* the design that consists of two pieces
+    *The hardware dependent
+    * hardwaqre indepent
+* the abstract operation are decoupled from the hardware dependent parts
+* if the hardware changs
+    * the modifications to the design and the code 
+* The bridge design patter is a way of achieving information hiding via encapsulation
+
+
+##### iterator design pattern
+* an aggregate object is an object that contains other objects grouped together as a unit
+    *examples linked list
+    
+* An iterator is a programming construct that allows a programmer to traverse the elements of an aggregate object without exposing the implementation of that aggregate
+* an iterator may be viewed as a pointer with two main operations
+    * get hands on element
+    * go to next element
+* diagram 245
