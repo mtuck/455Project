@@ -181,3 +181,76 @@ A means of achieving stepwise refinement by suppressing unnecessary details and 
     * get hands on element
     * go to next element
 * diagram 245
+* implementation details of the elements are hidded from the iterator
+* we can use an iterator to process every element of collection
+* independently of the implementation of the container of theh elements.
+* iterator will usually allow different traversal methods
+* it even allows multiple traversals to be in progress concurrently.
+
+
+##### Strengths of design patters
+* design patters promote reuse by solving general design problems
+* high level design view. 
+* implementation of many design patters already exist
+* a maitince programmers who is familiar with design patters can 
+
+##### weaknesses of design patters
+* the use of 23 standard design patters may mean the language is not powerfull enough
+* There is a easy way to see when on to use design patterns
+* multiple design patterns interating can be difficult
+* it is hard to retrofit design pattern
+
+##### Portability
+* software whcih is significantly easier to modify to run on another platform than it is to recode from scratch
+
+##### impediments to portability
+* hardware incompatibilities
+* Operating system incompatibilities
+* differnce in numeric capatibilities
+* comiler incompatibilities
+* Data formats
+
+
+##### Hardware incompatibilites
+* storage media
+    * ZIP VS dat
+* character code(ASCII EBSIDIC)
+* word size
+
+##### Os icompatibil.
+* Job control languages can be vastly different
+    * syntactic differnce
+* virtual memory vs overlays
+
+#### Numeric incompat.
+* difference in word size can effect accuracy
+* No problems with 
+    * JAVA
+    * ADA
+    
+###### compiler incompati
+* Standards is not enforced (FORTRAN)
+* cobol standards permit subsets or supersets
+* ANSIC standard (1989)
+    *  lint processor aids portability
+* Ada standard - the only succesful language standard
+    * first enforce legally
+* JAVA is still evolving
+
+##### why portability
+* Good software last 15+ years and Hardware changes every 4 years
+* Upwardly compatibile hardware works 
+* Portability can lead  to increased profits (1 code)
+
+
+##### achieving port
+* use constructs and standards
+* how portablle can an operating system be written
+
+#### portable application software
+* Use popular language
+* popular os
+* strict language standards
+* avoid numerical incompatibilites
+* document meticulously
+* __See pg. 259__
