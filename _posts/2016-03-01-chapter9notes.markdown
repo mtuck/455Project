@@ -61,3 +61,57 @@ __loc and kdsi problems__
 * Not all code that is written is delivered
 * Most wait until the project is finished to get the measurement
         
+__USE of FFP__
+* file- collection of logiclaly or physicall related records permanently resident in the product
+* flow -- data interface between the product and the environments
+* Process -- functionally defined logical or arithmentic manipulation of the data (sorting validationg updating, etc)
+
+* size = files + flows + processes
+* cost = d *S   where d is a constant which varies from organization to organization ( a measure of the efficiency or productivity of the development process)
+    * Note the size can be determined once the design is completed, not waiting until the__Function points - used to assess the size of a project
+* identify the functions the applications must hav
+* for each function compute
+    *    external inputs
+    * external outpputs
+    * external inquireis
+    * interal logical files
+    * external logical files
+__Function points continued__
+1. identify the functions the application must have
+2. ??
+3. multiply the numbers from step 2 by specific values(seee page 274) this results in an adjusted function point value UFP
+4. compute the technical complexity factor TCF using the effect of the 14 gerneral characteristics of the project which have been assigned a value from 0 not present or no influes to 5" strong influence throught". The 14 numbers are summed using the total degree of influence "DI" Then the TCF is given by .65 + .01 *DI
+5. FP = UFP * TCF
+once the function point value is computed an estimate for the lines of code by multiplying a constant associated with the lagnuage we plan to use for the application
+
+__Techiniques for estimation of size__
+* use comparisons with past jobs
+* use function point method 
+    * compute un-adjusted function points
+    * apply adjustment process
+* USE loc estimates to compute labor and ruation using cocomo formula 
+
+COCOMO
+* estimation method by behm(1981)
+* constructive cost model
+depends on the loc of a project
+
+Cost estimation techniques
+1. expect judment by analogy- consult a number of experts that have done similar project.
+2. Bottom up-- estimate each component from the leaf level and add going upward to the design
+3 algorithmic cost estimation -- ues FFP or FP and compute
+
+__Software project management Plan (spmp)__
+* Plan whcih describe the proposed software development in full detail(see page 285)
+* Consist of three main components
+    * the work to be completed
+    * what resource are needed to do the work
+    * The money to pay for it all
+    
+
+
+    
+
+
+
+    
