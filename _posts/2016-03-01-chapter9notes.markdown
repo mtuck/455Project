@@ -107,7 +107,16 @@ __Software project management Plan (spmp)__
     * the work to be completed
     * what resource are needed to do the work
     * The money to pay for it all
-    
+1. project function - work whcih continues throughout the project and is not related to any specific workflow
+2. activity - work which is related to a specific phase or workflow and has a definite beginning  and ending date.
+
+__Resources:__
+1. people (varies during the duration of the project)
+2. hardware
+3. Support software (include CASE tools)
+
+
+
 
 
     
