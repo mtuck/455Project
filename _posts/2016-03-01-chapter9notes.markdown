@@ -44,5 +44,20 @@ __factors which help estimating__
     * developer expirience 
     * Developer compatibility
     * Whether critical stff will remain through the entire project
-    * 
+* size of the project
+
+__Mtrics for Size--
+* LOC lines of code
+* kdsi throusand devlivered source instructions (total nubmer of executed instructions)
+* Numer of operands and oprators
+* FFP files flows and processes
+* Function poins- FP
+
+__loc and kdsi problems__
+* creation of source code is only small part of total effort
+* conparing apples to oranges when comparing languages
+* Some languages do not have lines LSP
+* question as to whether only to count executable statements (omit declaration, commect JCL, reused cod)
+* Not all code that is written is delivered
+* Most wait until the project is finished to get the measurement
         
