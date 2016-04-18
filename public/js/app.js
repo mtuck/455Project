@@ -79,26 +79,24 @@
 					}
 					
 					/*
-						Function: $rootScope.sortAlphabeticallyByProperty
-						Description: Orders objects of an array in alphabetical order of a property
+						Function: $rootScope.formatCredit
+						Description: format credit for display based on min and max
 						Input:
-							arr: array to sort
-							property: property to sort by
+							hours: hours object with min and max properties
 						Output:
-							sorted array
+							formatted credit (String)
 						Created: Tyler Yasaka 04/17/2016
 						Modified:
 					*/
-					$rootScope.sortAlphabeticallyByProperty = function(arr, property) {
-						return arr.sort(function(a, b){
-							var propertyA=a[property].toLowerCase()
-							var propertyB=b[property].toLowerCase();
-							if (propertyA < propertyB) //sort string ascending
-								return -1;
-							if (propertyA > propertyB)
-								return 1;
-							return 0; //default return value (no sorting)
-						});
+					$rootScope.formatCredit = function(hours) {
+						var credit;
+						if(hours.min == hours.max) {
+							credit = String(hours.min);
+						}
+						else {
+							credit = hours.min + ' - ' + hours.max;
+						}
+						return credit;
 					}
 				}
 			]

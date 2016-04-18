@@ -1,11 +1,11 @@
 <ol class="breadcrumb">
   <li>
-		<a href="#/programs/category/{{category._id}}">
+		<a ng-href="#/programs/category/{{category._id}}">
 			{{category.name}}
 		</a>
 	</li>
   <li ng-if="department">
-		<a href="#/programs/category/{{category._id}}/departments/{{department._id}}">
+		<a ng-href="#/programs/category/{{category._id}}/departments/{{department._id}}">
 			Department of {{department.name}}
 		</a>
 	</li>
@@ -23,14 +23,19 @@
 		</h4>
 	</div>
   <table class="table">
-		<t>
+		<tr>
 			<th>Requirement</th>
 			<th>Credit</th>
 		</tr>
     <tr ng-repeat="item in requirement.items">
-			<td>
+			<td ng-show="!!item.writeIn">
+				{{item.writeIn.content}}
+			</td>
+			<td ng-show="!item.writeIn">
 				<span ng-repeat="(c, course) in item.courses">
-					{{course.subject.abbreviation}} {{course.number}} {{course.title}}
+					<a ng-href="#/courses/course/{{course._id}}">
+						{{course.subject.abbreviation}} {{course.number}} {{course.title}}
+					</a>
 					<div ng-if="c < item.courses.length - 1" class="course-separator">
 						<em>{{item.separator}}</em>
 					</div>

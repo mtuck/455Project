@@ -1,30 +1,36 @@
-            <h1>{{category.name}}</h1>
-            <!--This will be centered, maybe bold-->
+<ol class="breadcrumb">
+  <li class="active">
+		{{category.name}}
+	</li>
+</ol>
 
-            {{category.description}}
+<h1>{{category.name}}</h1>
+<!--This will be centered, maybe bold-->
 
-            <h2>Programs</h2>
-            <!--Should be indented, but not centered-->
+{{category.description}}
 
-						<div ng-repeat="department in category.departments">
-							<!--The list of departments should be indented hyperlinks-->
-							<h4>Department of {{department.name}}</h4>
-							<ul>
-								<li ng-repeat="program in orderPrograms(department.programs)">
-									<a ng-href="#/programs/category/{{category._id}}/department/{{department._id}}/program/{{program._id}}">
-										{{programTitle(program)}}
-									</a>
-								</li>
-							</ul>
-						</div>
+<h2>Programs</h2>
+<!--Should be indented, but not centered-->
 
-						<div ng-if="category.programs.length">
-							<h4>Other Programs</h4>
-							<ul>
-								<li ng-repeat="program in orderPrograms(category.programs)">
-									<a ng-href="#/programs/category/{{category._id}}/program/{{program._id}}">
-										{{programTitle(program)}}
-									</a>
-								</li>
-							</ul>
-						</div>
+<div ng-repeat="department in category.departments">
+	<!--The list of departments should be indented hyperlinks-->
+	<h4>Department of {{department.name}}</h4>
+	<ul>
+		<li ng-repeat="program in department.programs">
+			<a ng-href="#/programs/category/{{category._id}}/department/{{department._id}}/program/{{program._id}}">
+				{{programTitle(program)}}
+			</a>
+		</li>
+	</ul>
+</div>
+
+<div ng-if="category.programs.length">
+	<h4>Other Programs</h4>
+	<ul>
+		<li ng-repeat="program in category.programs">
+			<a ng-href="#/programs/category/{{category._id}}/program/{{program._id}}">
+				{{programTitle(program)}}
+			</a>
+		</li>
+	</ul>
+</div>

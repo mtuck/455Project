@@ -61,6 +61,27 @@
 							templateUrl: 'views/programs/program.html',
 							controller: 'ProgramCtrl'
 						}
+					).when
+					(
+						'/courses',
+						{
+							templateUrl: 'views/courses/index.html',
+							controller: 'CoursesCtrl'
+						}
+					).when
+					(
+						'/courses/course/:course',
+						{
+							templateUrl: 'views/courses/course.html',
+							controller: 'CourseCtrl'
+						}
+					).when
+					(
+						'/courses/subject/:subject',
+						{
+							templateUrl: 'views/courses/subject.html',
+							controller: 'SubjectCtrl'
+						}
 					);
 				}
 			]

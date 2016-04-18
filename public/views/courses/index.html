@@ -1,0 +1,15 @@
+<ol class="breadcrumb">
+  <li class="active">
+		Courses
+	</li>
+</ol>
+
+<h1>Course Subjects</h1>
+
+<ul>
+	<li ng-repeat="subject in subjects">
+		<a ng-href="#/courses/subject/{{subject._id}}">
+			{{subject.name}} ({{subject.abbreviation}})
+		</a>
+	</li>
+</ul>
